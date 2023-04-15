@@ -1,0 +1,63 @@
+*{
+    overscroll-behavior: contain;
+    border-radius: 10px;
+    border: 0px;
+    margin: 5px;
+}
+::-webkit-scrollbar{
+    background: rgb(13, 3, 27);
+}
+::-webkit-scrollbar-thumb{
+    background:rgb(57, 12, 119);
+    border-radius: 5px;
+}
+::-webkit-scrollbar-corner{
+    background:rgb(12, 17, 119);
+    border-radius: 5px;
+}
+body{
+    margin: 0;
+    background-color: rgb(9, 1, 41);
+    color: aliceblue;
+}
+#C{
+    position: fixed;
+    margin: 0,0;
+    border: 1px solid black;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    border-radius: 0;
+}
+div{
+    font-size:xx-large;
+    padding: 20px;
+    color: aliceblue;
+}
+input,textarea{
+    width: 70%;
+    resize: vertical;
+}
+input{
+    background-color: rgb(8, 56, 78);
+    color: aliceblue;
+}
+textarea{
+    background-color: rgb(159, 205, 202);
+    height: 50%;
+}
+button{
+    background-color: rgb(12, 102, 102);
+    width:70px;
+    height: 30px;
+}
+button:focus,input:focus{
+    background-color: rgb(17, 128, 128);
+}
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    word-wrap:break-word;
+    white-space:pre-wrap;
+}
